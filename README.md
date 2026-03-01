@@ -1,7 +1,7 @@
-JurisConsult AI
-L'assistant juridique intelligent qui n'hallucine pas. 
+# JurisConsult AI
+## L'assistant juridique intelligent qui n'hallucine pas. 
 
-La Vision Produit (Le "Pourquoi")
+### La Vision Produit (Le "Pourquoi")
 
   En France, 60% des dirigeants de TPE/PME hésitent à consulter un avocat pour des questions simples à cause du coût et de la complexité. Les LLMs classiques (ChatGPT, Claude) sont puissants mais présentent un risque majeur : l'hallucination juridique.
   
@@ -14,7 +14,7 @@ La Vision Produit (Le "Pourquoi")
   
   Confidentialité : Approche "Privacy-First" dans le traitement des documents téléchargés.
 
-🛠️ Architecture Technique & Choix "Product Engineer"
+### Architecture Technique & Choix "Product Engineer"
 
   Ce projet n'est pas qu'un wrapper d'API. Chaque choix technique répond à un impératif métier :
   
@@ -30,7 +30,7 @@ La Vision Produit (Le "Pourquoi")
   
   UI/UX : Tailwind CSS + Shadcn/UI pour une interface sobre, professionnelle et rassurante (codes visuels du secteur légal).
 
-✨ Fonctionnalités Clés
+### Fonctionnalités Clés
 
   Analyse de Documents : Upload de contrats (PDF/Docx) et extraction automatique des clauses à risque.
   
@@ -40,7 +40,7 @@ La Vision Produit (Le "Pourquoi")
   
   Mode Hors-Ligne (Draft) : Sauvegarde locale des consultations pour une reprise rapide.
 
-📈 Ce que j'ai appris (Le regard "Dev")
+### Ce que j'ai appris (Le regard "Dev")
 
   Gestion des Hallucinations : Mise en place d'un système de System Prompt rigoureux et de filtres post-génération.
   
@@ -48,7 +48,7 @@ La Vision Produit (Le "Pourquoi")
   
   Parsing de PDF complexes : Gestion des tableaux et des mises en page multi-colonnes souvent présentes dans les textes de loi.
 
-🏗️ Installation (Local Dev)
+### Installation (Local Dev)
 
   Cloner le projet
   Bash
